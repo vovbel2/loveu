@@ -7,5 +7,6 @@ function toggle(){
         var popup = document.getElementById('popup');
         popup.classList.toggle('active');
         document.getElementById('body').style['background'] = "transparent";
+        document.getElementById('blur').style['filter'] = "none";
     }
 }
